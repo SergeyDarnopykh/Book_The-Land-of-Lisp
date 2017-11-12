@@ -13,6 +13,6 @@
 		(guess-my-number))
 
 (defun start-over ()
-		(setf  *min* 1)
+		(defparameter *min* 1)
 		(setf  *max* 100)
 		(guess-my-number))
